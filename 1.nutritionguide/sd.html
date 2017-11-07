@@ -1,0 +1,85 @@
+<html>
+<body>
+<head>
+<style>
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: green;
+    clear: left;
+    text-align: center;
+}
+nav {
+    float: left;
+    max-width: 180px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+article {
+    margin-left: 180px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+.btn-group button {
+    background-color: #4CAF50; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 50%; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+}
+
+.btn-group button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #3e8e41;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<header>
+   <h1>Nutrition Guide</h1>
+</header>
+<form>
+  <input type="text" placeholder="enter name">
+<input type="text" placeholder="enter age">
+<input type="text" placeholder="enter weight">
+<button type="submit">SUBMIT</button>
+</form>
+<div class="btn-group" style="width:100%">
+ <button style="width:10%" ><a href="sd.html">HOME</button>
+ <button style="width:10%" ><a href="diet.html">DIET PLAN</button>
+  <button style="width:10%" ><a href="fit.html">FITNESS PLAN</button>
+<article>
+
+<img src="final.jpg">
+</article>
+<nav>
+
+</nav>
+</div>
+
+</body>
+</html>
